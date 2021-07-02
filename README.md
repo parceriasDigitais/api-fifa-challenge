@@ -54,6 +54,7 @@
   - Desenvolva a solução para resolver a necessidade do desafio
   - Faça o commit das alterações realizadas
   - Adicione o usuario parceriasDigitais com acesso de leitura do projeto.
+  - Enviar um email para o responsável da vaga informando o endereço do repositório.
   
   
 ### - BOA SORTE!!! ;]
