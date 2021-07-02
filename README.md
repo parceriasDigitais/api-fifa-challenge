@@ -3,7 +3,7 @@
 ### - DESCRIÇÃO DA NECESSIDADE
  Deverá ser construido uma API para atender um MVP que será responsável por gerenciar o ranking de jogadores amadores de FIFA.
  
- É necessário que o a API possua os seguintes componentes:
+ É necessário que a API possua os seguintes componentes:
 
   #### 1 - Cadastro de jogadores
    Este recurso receberá os dados de players que desejam criar ou ingressar em uma liga já existente.
