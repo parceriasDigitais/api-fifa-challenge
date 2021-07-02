@@ -14,7 +14,7 @@
   #### 2 - Cadastro da liga
    Este recurso receberá o cadastro do nome da liga 
    * O cadastro da liga não poderá repetir o nome para o mesmo proprietário
-      * Campos minimos obrigatórios no cadastro da liga (nome)
+      * Campos minimos obrigatórios no cadastro da liga (nome, periodo de sorteios, quantidade de jogos dentro do periodo)
       * Operações de cadastro, edição e exclusão serão permitidas.
       * Em operações de consulta da liga deverá ser possivel ver todos os membros associados a liga
       * Em operações de consulta da liga será possivel também ver todos jogos e rodadas da liga.
@@ -26,8 +26,9 @@
       * O player pode deixar de fazer parte da liga
 
   #### 4 - Sorteio de jogos
-  O proprietário da liga efetua o sorteio dos jogos para rodada corrente.
-      * Operações gera uma nova rodada com os jogos intercalados entre os membros da liga.
+  O proprietário da liga pode efetuar o sorteio dos jogos na rodada que irá iniciar. 
+      * Cada sorteio efetuado é gerado jogos entre os players que são membros da liga.
+      * Não pode-se repetir os jogos das ultimas três rodadas.
 	
   #### 5 - Cadastrar os resultados dos jogos
   O player que faz parte do jogo, pode incluir o placar jogo para a rodada corrente.
@@ -35,6 +36,12 @@
   #### 6 - Exibir ranking
   Todos os players do ranking podem ver a pontuação dos membros da liga em que faz parte e também o ranking global dos 10 maiores campeões do aplicativo.
 
+
+### - ENTREGA NECESSÁRIA
+- Código fonte compilando para rodar a aplicação (Java/.Net Core)
+- Teste Unitários
+- Código utilizando boas praticas de desenvolvimento
+- Swagger 
 
 ### - PLUS DA ENTREGA
 - Implementação de segurança (authenticação e autorização); 
@@ -47,7 +54,6 @@
   - Desenvolva a solução para resolver a necessidade do desafio
   - Faça o commit das alterações realizadas
   - Adicione o usuario parceriasDigitais com acesso de leitura do projeto.
-  
   
   
 ### - BOA SORTE!!! ;]
